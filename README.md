@@ -1,62 +1,107 @@
-Seedha is poore content ko copy kar aur `README.md` mein bina kisi extra code block ke paste kar de:
+
 
 ---
-
-### ⚡ Interactive Memory & Execution Models
-
-| 🧬 Linked List Dynamics | ⚡ Sorting Partition |
-| --- | --- |
-|  |  |
-
-| 🌲 Tree Node Traversal | 🥞 Stack & Queue Buffers |
-| --- | --- |
-|  |  |
-
----
-
-### 📊 Algorithmic Efficiency Matrix
-
-| Data Structure | Time: Access | Time: Search | Time: Insertion | Time: Deletion | Memory Footprint | Space Complexity |
-| --- | --- | --- | --- | --- | --- | --- |
-| **Array** | `O(1)` | `O(n)` | `O(n)` | `O(n)` | Contiguous Stack / Heap | `O(n)` |
-| **Singly Linked List** | `O(n)` | `O(n)` | `O(1)` | `O(1)` | Segmented Heap Nodes | `O(n)` |
-| **Doubly Linked List** | `O(n)` | `O(n)` | `O(1)` | `O(1)` | Bi-Directional Pointers | `O(n)` |
-| **Stack / Queue** | `O(n)` | `O(n)` | `O(1)` | `O(1)` | Monotonic / Ring Buffer | `O(n)` |
-| **Binary Search Tree** | `O(log n)` | `O(log n)` | `O(log n)` | `O(log n)` | Recursive Subtrees | `O(n)` |
-
----
-
-### 🗂️ Core Architecture
 
 ```
-DSA-in-C/
-├── 📁 Arrays/          ➔ Memory Allocation • Binary & Linear Traversal
-├── 📁 LinkedList/      ➔ Singly • Doubly • Circular Operations
-├── 📁 Stack/           ➔ Array Buffer • Dynamic Node Architecture
-├── 📁 Queue/           ➔ FIFO Arrays • Circular Buffers
-├── 📁 Trees/           ➔ Binary Search Trees • Recursive Traversal
-├── 📁 Sorting/         ➔ Divide & Conquer • Quick Sort • Merge Sort
-└── 📁 Graphs/          ➔ DFS • BFS • Adjacency Representations
+  ██████╗  ███████╗ █████╗     ██╗███╗   ██╗     ██████╗
+  ██╔══██╗ ██╔════╝██╔══██╗    ██║████╗  ██║    ██╔════╝
+  ██║  ██║ ███████╗███████║    ██║██╔██╗ ██║    ██║     
+  ██║  ██║ ╚════██║██╔══██║    ██║██║╚██╗██║    ██║     
+  ██████╔╝ ███████║██║  ██║    ██║██║ ╚████║    ╚██████╗
+  ╚═════╝  ╚══════╝╚═╝  ╚═╝    ╚═╝╚═╝  ╚═══╝     ╚═════╝
 
 ```
 
 ---
 
-### ⚙️ Compilation & Diagnostics
+### 🖥️ HEAP MEMORY & POINTER TOPOLOGY
+
+```
+               [STACK FRAME]                          [VIRTUAL HEAP MEMORY]
+   +------------------------------------+     +-----------------------------------+
+   | main() Scope                       |     | Dynamic Allocated Nodes           |
+   |                                    |     |                                   |
+   |  struct Node *head  ───────────────┼────>|  [ DATA: 0x002A ] [ NEXT: 0x04F0 ]|
+   |  struct Node *tail  ─────────┐     |     +─────────────────┬─────────────────+
+   +------------------------------│-----+                       │
+                                  │                             ▼
+                                  │           +─────────────────┴─────────────────+
+                                  │           |  [ DATA: 0x004B ] [ NEXT: 0x08A4 ]|
+                                  │           +─────────────────┬─────────────────+
+                                  │                             │
+                                  │                             ▼
+                                  └──────────>+─────────────────┴─────────────────+
+                                              |  [ DATA: 0x00FF ] [ NEXT: NULL   ]|
+                                              +-----------------------------------+
+
+```
+
+---
+
+### 📊 ASYMPTOTIC RUNTIME RADAR
+
+```
+ OPERATION COMPLEXITY BREAKDOWN
+ ─────────────────────────────────────────────────────────────────────────────
+ DATA STRUCTURE       SEARCH        INSERTION      DELETION       SPACE
+ ─────────────────────────────────────────────────────────────────────────────
+ Array ADT            O(N)          O(N)           O(N)           O(N)
+ Singly Linked List   O(N)          O(1)           O(1)           O(N)
+ Doubly Linked List   O(N)          O(1)           O(1)           O(N)
+ Circular Buffer      O(N)          O(1)           O(1)           O(N)
+ Binary Search Tree   O(log N)      O(log N)       O(log N)       O(N)
+ Quick Sort (Pivot)   O(N log N)    --             --             O(log N)
+ Merge Sort           O(N log N)    --             --             O(N)
+ ─────────────────────────────────────────────────────────────────────────────
+
+```
+
+---
+
+### 🗂️ LOW-LEVEL MODULE SYSTEM
+
+```
+                           root/
+                             │
+         ┌───────────────────┼───────────────────┐
+         ▼                   ▼                   ▼
+    src/memory/         src/linear/        src/trees/
+    ├── arena.c         ├── array.c        ├── bst.c
+    └── allocator.c     ├── s_list.c       ├── avl.c
+                        ├── d_list.c       └── rb_tree.c
+                        └── c_queue.c
+
+```
+
+---
+
+### ⚙️ COMPILE ENGINE PIPELINE
+
+```
+ [Source: file.c] ──► [GCC Front-End] ──► [-O3 Optimization] ──► [x86_64 Machine Code]
+
+```
 
 ```bash
-gcc -Wall -Wextra -O2 CircularLinked.c -o build/run && ./build/run
+gcc -O3 -Wall -Wextra -Werror -pedantic -std=c99 CreationandTraversal.c -o runtime.bin && ./runtime.bin
 
 ```
 
 ---
 
-### 📈 Repository Telemetry & Growth
+### 📈 REPO METRICS & ACTIVITY
 
 ---
 
-### 🤝 Automated Workflow & Contributions
+### 🤖 AUTOMATED CONTRIBUTION PROTOCOL
+
+| 01. FORK | 02. BRANCH | 03. VALGRIND AUDIT | 04. PULL REQUEST |
+| --- | --- | --- | --- |
+| `Fork Engine` | `git checkout -b patch` | `valgrind --leak-check=full` | `Merge to Main` |
 
 ---
 
-### Akshat Raj
+```
+  MAINTAINED BY: AKSHAT RAJ | SYSTEMS & LOW-LEVEL COMPUTING
+
+```
