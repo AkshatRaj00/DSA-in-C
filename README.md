@@ -1,295 +1,444 @@
-<div align="center"><img src="https://raw.githubusercontent.com/AkshatRaj00/DSA-in-C/main/assets/logo.png" alt="DSA in C Logo" width="160" height="160"/>
-💻 Data Structures & Algorithms in C
-Master C — Master Memory — Master the Machine
+<div align="center">
 
-<p> <strong>A complete, production-grade DSA reference repository in pure C</strong><br/> Built for students, interview aspirants, and self-learners who want real mastery — not shortcuts. </p><p> <img src="https://img.shields.io/github/stars/AkshatRaj00/DSA-in-C?style=for-the-badge&color=yellow&label=⭐%20Stars" alt="Stars"/> <img src="https://img.shields.io/github/forks/AkshatRaj00/DSA-in-C?style=for-the-badge&color=blue" alt="Forks"/> <img src="https://img.shields.io/github/issues/AkshatRaj00/DSA-in-C?style=for-the-badge&color=red" alt="Issues"/> <img src="https://img.shields.io/github/license/AkshatRaj00/DSA-in-C?style=for-the-badge&color=green" alt="License"/> </p><p> <img src="https://img.shields.io/badge/Language-C-blue?style=for-the-badge&logo=c" alt="Language"/> <img src="https://img.shields.io/badge/Maintained-Yes-brightgreen?style=for-the-badge" alt="Maintained"/> <img src="https://img.shields.io/badge/PRs-Welcome-orange?style=for-the-badge" alt="PRs"/> <img src="https://img.shields.io/badge/Open%20Source-❤️-red?style=for-the-badge" alt="Open Source"/> </p><p> <img src="https://img.shields.io/badge/🌍%20Global-Ready-blueviolet?style=for-the-badge" alt="Global Ready"/> <img src="https://img.shields.io/badge/🤖%20Bot-Friendly-success?style=for-the-badge" alt="Bot Friendly"/> <img src="https://img.shields.io/badge/📈%20SEO-Optimized-informational?style=for-the-badge" alt="SEO Optimized"/> <img src="https://img.shields.io/badge/🧠%20DSA-C%20Mastery-critical?style=for-the-badge" alt="DSA Mastery"/> </p>
-"Understand the machine. Master the fundamentals. Everything else is built on top."
+<img src="assets/hero.svg" alt="Data Structures and Algorithms in C" width="100%"/>
+
+<br/>
+
+<a href="#-what-is-inside">
+  <img src="https://img.shields.io/badge/DSA%20REFERENCE-7c3aed?style=for-the-badge&logo=c&logoColor=white" alt="DSA Reference"/>
+</a>
+<a href="#-getting-started">
+  <img src="https://img.shields.io/badge/C99%20%7C%20C11-06b6d4?style=for-the-badge&logo=c&logoColor=white" alt="C99 C11"/>
+</a>
+<a href="#-contributing">
+  <img src="https://img.shields.io/badge/OPEN%20SOURCE-111827?style=for-the-badge&logo=github&logoColor=white" alt="Open Source"/>
+</a>
+
+<br/><br/>
+
+<img src="https://img.shields.io/github/stars/AkshatRaj00/DSA-in-C?style=for-the-badge&color=yellow&label=%E2%98%85%20STARS" alt="Stars"/>
+<img src="https://img.shields.io/github/forks/AkshatRaj00/DSA-in-C?style=for-the-badge&color=blue&label=FORKS" alt="Forks"/>
+<img src="https://img.shields.io/github/issues/AkshatRaj00/DSA-in-C?style=for-the-badge&color=red&label=ISSUES" alt="Issues"/>
+<img src="https://img.shields.io/github/license/AkshatRaj00/DSA-in-C?style=for-the-badge&color=green&label=LICENSE" alt="License"/>
+
+<br/>
+
+### **Understand the machine. Master the fundamentals.**
+
+*A complete, production-grade DSA reference repository in pure C — built for students, interview aspirants, and self-learners who want real mastery, not shortcuts.*
 
 </div>
-📌 Table of Contents
-Section	Link
-📖 About	#about-this-repository
-🔥 Why This Repo?	#why-this-repository
-🧠 Topics Covered	#topics-covered
-📂 Folder Structure	#folder-structure
-🚀 Getting Started	#getting-started
-💡 Code Philosophy	#code-philosophy
-📋 Interview Prep	#interview-prep-guide
-🤝 Contributing	#contributing
-👨‍💻 Author	#author--akshat-raj
-📜 License	#license
-🎯 About This Repository
-This repository is a comprehensive collection of Data Structures and Algorithms implemented in pure C — no external libraries, no shortcuts, just raw logic and memory management.
 
-Property	Details
-🚀 Language	C (C99 / C11 Standard)
-🎓 Level	Beginner → Advanced
-📦 Topics	8+ major DSA topics, 30+ programs
-🎯 Purpose	College exams, placement prep, concept mastery
-🔄 Status	Actively maintained
-🌍 Global Reach	Used by developers in 50+ countries
-Whether you are preparing for GATE, campus placements, competitive programming, or just want to deeply understand how data structures work under the hood — this repo is for you.
+---
 
-🔥 Why This Repository?
-Most DSA resources use Java or Python. This repo is different:
+## 🧭 Navigation
 
-✅ Pure C — understand pointers, memory allocation, and raw data manipulation
+| | | |
+|---|---|---|
+| 🎯 [About](#-about) | 🧠 [Topics](#-what-is-inside) | 🗂️ [Architecture](#️-repository-architecture) |
+| 🚀 [Getting Started](#-getting-started) | 🧩 [Code Philosophy](#-code-philosophy) | 🎯 [Interview Prep](#-interview-prep) |
+| 🤝 [Contributing](#-contributing) | 💬 [Discussions](#-discussions) | 👨‍💻 [Author](#-author) |
 
-✅ No abstractions — every malloc, every free, every pointer is written explicitly
+---
 
-✅ Interview-ready — implementations match what top companies actually ask
+## 🎯 About
 
-✅ Clean, commented code — every function is documented for clarity
+This repository is a **comprehensive collection of Data Structures and Algorithms implemented in pure C** — no external libraries, no shortcuts, just raw logic and memory management.
 
-✅ Structured learning path — topics ordered from basic to advanced
+| **Property** | **Details** |
+|---|---|
+| 🚀 **Language** | C (C99 / C11 Standard) |
+| 🎓 **Level** | Beginner → Advanced |
+| 📦 **Coverage** | 8+ major DSA topics, 30+ programs |
+| 🎯 **Purpose** | College exams, placement prep, concept mastery |
+| 🔄 **Status** | Actively maintained |
+| 🌍 **Reach** | Used by developers in 50+ countries |
 
-✅ Practice sheets — curated problem sets per topic
+> **The idea:** don't just learn what a data structure does. Learn what the machine is doing underneath it.
 
-✅ Global community — contributors from 15+ countries
+---
 
-💡 Learning DSA in C gives you an edge that Python/Java developers simply don't have — you understand how memory works, not just that it works.
+## 🧠 What Is Inside?
 
-🧠 Topics Covered
-📌 Foundational
-Topic	Implementations
-Arrays & ADTs	Array ADT, Linear Search, Binary Search
-Pointers & Memory	Dynamic allocation with malloc, calloc, free
-Recursion	Factorial, Fibonacci, Tower of Hanoi
-📌 Linear Data Structures
-Topic	Implementations
-Linked List	Singly, Doubly, Circular — Insert, Delete, Traverse
-Stack	Array-based, Linked List-based
-Queue	Simple Queue, Circular Queue, Priority Queue
-📌 Non-Linear Data Structures
-Topic	Implementations
-Trees	Binary Tree, BST — Insert, Delete, Inorder, Preorder, Postorder
-Graphs	BFS, DFS, Adjacency Matrix, Adjacency List
-📌 Algorithms
-Topic	Algorithms
-Sorting	Bubble, Selection, Insertion, Merge, Quick Sort
-Searching	Linear Search, Binary Search
-Time Complexity	Analysis notes for every algorithm
-📂 Folder Structure
-text
+### `01` — Foundations
+
+| Topic | Implementations |
+|---|---|
+| **Arrays & ADTs** | Array ADT • Linear Search • Binary Search |
+| **Pointers & Memory** | `malloc` • `calloc` • `free` |
+| **Recursion** | Factorial • Fibonacci • Tower of Hanoi |
+
+### `02` — Linear Data Structures
+
+| Topic | Implementations |
+|---|---|
+| **Linked List** | Singly • Doubly • Circular • Insert • Delete • Traverse |
+| **Stack** | Array-based • Linked-list-based |
+| **Queue** | Simple • Circular • Priority |
+
+### `03` — Non-Linear Data Structures
+
+| Topic | Implementations |
+|---|---|
+| **Trees** | Binary Tree • BST • Insert • Delete • Traversals |
+| **Graphs** | BFS • DFS • Adjacency Matrix • Adjacency List |
+
+### `04` — Algorithms
+
+| Area | Coverage |
+|---|---|
+| **Sorting** | Bubble • Selection • Insertion • Merge • Quick |
+| **Searching** | Linear • Binary |
+| **Complexity** | Time-complexity analysis for algorithms |
+
+---
+
+## 🗺️ Learning Roadmap
+
+<div align="center">
+<img src="assets/roadmap.svg" alt="DSA learning roadmap" width="100%"/>
+</div>
+
+> **Recommended order:** Arrays → Linked List → Stack → Queue → Trees → Sorting → Graphs
+
+---
+
+## 🏗️ Repository Architecture
+
+<div align="center">
+<img src="assets/architecture.svg" alt="Repository architecture diagram" width="100%"/>
+</div>
+
+<details>
+<summary><b>📂 View complete folder structure</b></summary>
+
+```text
 DSA-in-C/
 │
 ├── Arrays/
-│   ├── arrayadt.c              # Array Abstract Data Type
-│   ├── linear_search.c         # O(n) linear search
-│   └── binary_search.c         # O(log n) binary search
+│   ├── arrayadt.c
+│   ├── linear_search.c
+│   └── binary_search.c
 │
 ├── LinkedList/
-│   ├── singly_linked_list.c    # Single pointer traversal
-│   ├── doubly_linked_list.c    # Bi-directional traversal
-│   ├── circular_linked_list.c  # Circular pointer structure
-│   ├── insertion.c             # Insert at head/tail/position
-│   └── deletion.c              # Delete by value/position
+│   ├── singly_linked_list.c
+│   ├── doubly_linked_list.c
+│   ├── circular_linked_list.c
+│   ├── insertion.c
+│   └── deletion.c
 │
 ├── Stack/
-│   ├── stack_array.c           # Fixed-size stack using array
-│   └── stack_linked_list.c     # Dynamic stack using linked list
+│   ├── stack_array.c
+│   └── stack_linked_list.c
 │
 ├── Queue/
-│   ├── simple_queue.c          # FIFO queue implementation
-│   └── circular_queue.c        # Efficient circular buffer
+│   ├── simple_queue.c
+│   └── circular_queue.c
 │
 ├── Trees/
-│   ├── binary_tree.c           # Tree creation and traversals
-│   └── bst_operations.c        # BST insert, delete, search
+│   ├── binary_tree.c
+│   └── bst_operations.c
 │
 ├── Sorting/
-│   ├── bubble_sort.c           # O(n²) comparison sort
-│   ├── selection_sort.c        # O(n²) selection sort
-│   └── quick_sort.c            # O(n log n) average quicksort
+│   ├── bubble_sort.c
+│   ├── selection_sort.c
+│   └── quick_sort.c
 │
 ├── Graphs/
-│   ├── bfs_dfs.c               # Breadth & Depth First Search
-│   └── adjacency_matrix.c      # Graph using 2D matrix
+│   ├── bfs_dfs.c
+│   └── adjacency_matrix.c
 │
 ├── Notes/
-│   ├── Arrays.md               # Concept notes with diagrams
-│   └── Stacks.md               # Stack use-cases and theory
+│   ├── Arrays.md
+│   └── Stacks.md
 │
 └── PracticeSheets/
-    ├── Sheet-1_Basics.md       # 20 beginner problems
-    └── Sheet-2_Advanced.md     # 20 advanced problems
-🚀 Getting Started
-Prerequisites
-bash
-# Install GCC compiler (Linux/Mac)
-sudo apt install gcc         # Ubuntu/Debian
-brew install gcc             # macOS
+    ├── Sheet-1_Basics.md
+    └── Sheet-2_Advanced.md
+```
 
-# Windows: Install MinGW or use WSL
-Clone & Run
-bash
-# Clone this repository
+</details>
+
+---
+
+## ⚙️ Why This Repository?
+
+<div align="center">
+
+| 🧠 | **Concept First** | Understand the logic instead of memorising implementations. |
+|---|---|---|
+| ⚙️ | **Pure C** | Work directly with pointers, memory allocation and raw data. |
+| 🧩 | **No Hidden Magic** | `malloc`, `free` and pointer operations stay visible. |
+| 📚 | **Structured Path** | Move from foundational structures to advanced concepts. |
+| 💼 | **Interview Ready** | Practice patterns relevant to placement preparation. |
+| 📝 | **Practice Sheets** | Topic-wise problems for deliberate practice. |
+
+</div>
+
+> 💡 **Why C for DSA?**  
+> Learning DSA in C forces you to confront memory, pointers, allocation and representation instead of hiding them behind high-level abstractions.
+
+---
+
+## 🚀 Getting Started
+
+### 1. Install a C compiler
+
+**Linux / Ubuntu**
+
+```bash
+sudo apt install gcc
+```
+
+**macOS**
+
+```bash
+brew install gcc
+```
+
+**Windows**
+
+Install **MinGW** or use **WSL**.
+
+### 2. Clone the repository
+
+```bash
 git clone https://github.com/AkshatRaj00/DSA-in-C.git
+cd DSA-in-C
+```
 
-# Navigate to any topic
-cd DSA-in-C/Stack
+### 3. Pick a topic
 
-# Compile and run
+```bash
+cd Stack
+```
+
+### 4. Compile
+
+```bash
 gcc stack_array.c -o stack
+```
+
+### 5. Run
+
+```bash
 ./stack
-Recommended Learning Order
-text
-Arrays → Linked List → Stack → Queue → Trees → Sorting → Graphs
-💡 Code Philosophy
-Every file in this repository follows three principles:
+```
 
-Clarity over cleverness — Code should teach, not impress
+---
 
-Explicit memory management — No hidden allocations
+## 💡 Code Philosophy
 
-Minimal dependencies — Only <stdio.h>, <stdlib.h>, <string.h>
+Every file follows three principles:
 
-c
-// Example: How we write code here
-// ✅ Clean, commented, self-explanatory
+### `01` Clarity over cleverness
+> Code should **teach**, not impress.
 
+### `02` Explicit memory management
+> No hidden allocations. Memory behaviour stays visible.
+
+### `03` Minimal dependencies
+Core implementations use only:
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+```
+
+### Example
+
+```c
 Node* createNode(int data) {
-    Node* newNode = (Node*)malloc(sizeof(Node));  // explicit malloc
-    if (!newNode) {                                // null check always
+    Node* newNode = (Node*)malloc(sizeof(Node));
+
+    if (!newNode) {
         printf("Memory allocation failed\n");
         return NULL;
     }
+
     newNode->data = data;
     newNode->next = NULL;
+
     return newNode;
 }
-📋 Interview Prep Guide
-This repo directly maps to top placement interview questions:
+```
 
-Company Type	Focus Areas
-Product Companies (Google, Amazon)	Trees, Graphs, Dynamic Programming
-Service Companies (TCS, Infosys)	Arrays, Sorting, Linked Lists
-Startups	All fundamentals + problem-solving speed
-GATE Exam	Trees, Graphs, Hashing, Complexity Analysis
-💼 All implementations here match the exact patterns asked in FAANG, MAANG, and Indian placement drives.
+---
 
-🤝 Contributing
-Contributions are welcome and appreciated!
+## 🎯 Interview Prep
 
-bash
-# How to contribute
-1. Fork this repository
-2. Create your branch: git checkout -b feature/heap-sort
-3. Add your code with comments
-4. Commit: git commit -m "feat: add heap sort implementation"
-5. Push: git push origin feature/heap-sort
-6. Open a Pull Request
-Contribution ideas:
+| Target | Focus Areas |
+|---|---|
+| 🏢 **Product Companies** | Trees • Graphs • Dynamic Programming |
+| 🏢 **Service Companies** | Arrays • Sorting • Linked Lists |
+| 🚀 **Startups** | Fundamentals • Problem-solving speed |
+| 🎓 **GATE** | Trees • Graphs • Hashing • Complexity Analysis |
 
-New algorithms (Heap Sort, Merge Sort, AVL Tree)
+> 💼 The repository is designed around the kinds of DSA fundamentals commonly encountered in competitive programming, placement preparation and technical interviews.
 
-Fix bugs or improve existing code
+---
 
-Add more practice problems
+## 🤝 Contributing
 
-Improve documentation
+Contributions are welcome.
 
-Please read our contribution guidelines before submitting a PR.
+```bash
+# 1. Fork the repository
 
-💬 Discussions & Q&A
-Got a question about any concept or implementation?
+# 2. Create a branch
+git checkout -b feature/heap-sort
 
-👉 Open a Discussion — I personally answer every question!
+# 3. Add your implementation
 
-Topics you can ask about:
+# 4. Commit
+git commit -m "feat: add heap sort implementation"
 
-Why does a specific algorithm work this way?
+# 5. Push
+git push origin feature/heap-sort
 
-Time/space complexity doubts
+# 6. Open a Pull Request
+```
 
-Pointer and memory management confusion
+### Contribution ideas
 
-Which data structure to use when?
+- 🧮 Add new algorithms — Heap Sort, Merge Sort, AVL Tree
+- 🐛 Fix bugs or improve existing implementations
+- 📝 Add practice problems
+- 📚 Improve documentation
+- 🧠 Add concept diagrams and explanations
 
-👨‍💻 Author — Akshat Raj
+---
+
+## 💬 Discussions
+
+Have a question about an implementation or concept?
+
+**Open a Discussion:**  
+https://github.com/AkshatRaj00/DSA-in-C/discussions
+
+Useful discussion topics:
+
+- Why does a specific algorithm work this way?
+- Time / space complexity doubts
+- Pointer and memory-management confusion
+- Which data structure should be used and when?
+
+---
+
+## 🌍 Global Reach
+
+| 🇮🇳 India | 🇺🇸 USA | 🇬🇧 UK | 🇨🇦 Canada |
+|---:|---:|---:|---:|
+| 2,000+ | 500+ | 200+ | 150+ |
+
+| 🇩🇪 Germany | 🇦🇺 Australia | 🇫🇷 France | 🇯🇵 Japan |
+|---:|---:|---:|---:|
+| 120+ | 80+ | 70+ | 50+ |
+
+> 🌏 **Used by developers in 50+ countries worldwide.**
+
+---
+
+## 🧠 The C Advantage
+
+```text
+                 ┌──────────────────────┐
+                 │     DSA in C         │
+                 └──────────┬───────────┘
+                            │
+          ┌─────────────────┼─────────────────┐
+          ▼                 ▼                 ▼
+    MEMORY CONTROL      RAW LOGIC        LOW-LEVEL VIEW
+          │                 │                 │
+       heap/stack       pointers          representation
+          │                 │                 │
+          └─────────────────┼─────────────────┘
+                            ▼
+                    STRONG CS FOUNDATION
+```
+
+| Aspect | Benefit |
+|---|---|
+| **Memory Control** | Full control over heap / stack |
+| **Performance** | Fast execution and low-level control |
+| **Portability** | Runs across operating systems and embedded systems |
+| **Foundation** | Strong base for understanding modern languages |
+| **Interview Edge** | Reinforces C and fundamental CS concepts |
+
+---
+
+## 📊 Repository Signals
+
 <div align="center">
-Akshat Raj
-Computer Engineering Student | Full-Stack Developer | Open Source Enthusiast
 
-https://img.shields.io/badge/GitHub-AkshatRaj00-black?style=for-the-badge&logo=github
-https://img.shields.io/badge/LinkedIn-Akshat%2520Raj-blue?style=for-the-badge&logo=linkedin
-https://img.shields.io/badge/Email-akshatgyan2004@gmail.com-red?style=for-the-badge&logo=gmail
-
-Building real projects in Flutter, Next.js & Firebase while mastering CS fundamentals.
+<img src="https://img.shields.io/github/commit-activity/m/AkshatRaj00/DSA-in-C?style=for-the-badge" alt="Commit activity"/>
+<img src="https://img.shields.io/github/last-commit/AkshatRaj00/DSA-in-C?style=for-the-badge" alt="Last commit"/>
+<img src="https://img.shields.io/github/repo-size/AkshatRaj00/DSA-in-C?style=for-the-badge" alt="Repository size"/>
+<img src="https://img.shields.io/github/watchers/AkshatRaj00/DSA-in-C?style=for-the-badge" alt="Watchers"/>
 
 </div>
-📈 Repository Stats
-https://img.shields.io/github/commit-activity/m/AkshatRaj00/DSA-in-C?style=flat-square
-https://img.shields.io/github/last-commit/AkshatRaj00/DSA-in-C?style=flat-square
-https://img.shields.io/github/repo-size/AkshatRaj00/DSA-in-C?style=flat-square
-https://img.shields.io/github/watchers/AkshatRaj00/DSA-in-C?style=flat-square
 
-🌍 Global Reach
-Country	Users
-🇮🇳 India	2,000+
-🇺🇸 USA	500+
-🇬🇧 UK	200+
-🇨🇦 Canada	150+
-🇩🇪 Germany	120+
-🇦🇺 Australia	80+
-🇫🇷 France	70+
-🇯🇵 Japan	50+
-Used by developers in 50+ countries worldwide. 🌏
+---
 
-🧠 Why C for DSA?
-Aspect	Benefit
-Memory Control	Full control over heap/stack
-Performance	Fastest execution among high-level languages
-Portability	Runs on every OS and embedded system
-Foundation	C is the mother of all modern languages
-Interview Edge	FAANG interviews often test C fundamentals
-🧩 Bot-Friendly Features
-✅ Structured markdown with clear headings
+## 📜 License
 
-✅ SEO-optimized meta badges
-
-✅ Clear folder and file hierarchy
-
-✅ JSON-like topic tables
-
-✅ Actionable code snippets
-
-✅ High-quality badges with alt text
-
-✅ Global reach statistics
-
-✅ Contribution guidelines
-
-✅ Q&A section for community engagement
-
-📜 License
-This project is licensed under the MIT License — see the LICENSE file for details.
+This project is licensed under the **MIT License**.
 
 You are free to:
 
-✅ Use this code for learning and projects
+- ✅ Use the code for learning and projects
+- ✅ Share and distribute with attribution
+- ✅ Modify and improve
 
-✅ Share and distribute with attribution
+---
 
-✅ Modify and improve
+## ⭐ Support the Project
 
-⭐ Support This Project
-If this repository helped you understand DSA better, please consider:
-
-⭐ Starring this repository
-
-🍴 Forking it to add your own implementations
-
-📢 Sharing it with your classmates and friends
-
-💬 Opening a Discussion if you have any doubts
-
-"Jo seekhta hai, woh sikhata hai. Jo sikhata hai, woh aage badhta hai."
-— Akshat Raj
+If this repository helped you understand DSA better:
 
 <div align="center">
-Made with ❤️ in India 🇮🇳
 
-DSA in C • Data Structures • Algorithms • C Programming • Interview Prep • GATE • Placement • Computer Science
+### ⭐ Star it
+### 🍴 Fork it
+### 📢 Share it
+### 💬 Start a Discussion
+
+</div>
+
+> *"Jo seekhta hai, woh sikhata hai. Jo sikhata hai, woh aage badhta hai."*  
+> — **Akshat Raj**
+
+---
+
+## 👨‍💻 Author
+
+<div align="center">
+
+<img src="assets/logo.svg" width="120" alt="DSA in C logo"/>
+
+# **Akshat Raj**
+
+### Computer Engineering Student · Full-Stack Developer · Open Source Enthusiast
+
+**Building real projects in Flutter, Next.js & Firebase while mastering CS fundamentals.**
+
+<br/>
+
+<img src="https://img.shields.io/badge/GitHub-AkshatRaj00-111827?style=for-the-badge&logo=github" alt="GitHub"/>
+<img src="https://img.shields.io/badge/LinkedIn-Akshat%20Raj-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>
+<img src="https://img.shields.io/badge/Email-akshatgyan2004%40gmail.com-EA4335?style=for-the-badge&logo=gmail" alt="Email"/>
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:7c3aed,100:06b6d4&section=footer" width="100%" alt="Footer"/>
+
+**Made with ❤️ in India 🇮🇳**
+
+`DSA in C` · `Data Structures` · `Algorithms` · `C Programming` · `Interview Prep` · `GATE` · `Placement` · `Computer Science`
 
 </div>
