@@ -1,5 +1,5 @@
 
-```markdown
+
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,25,30&height=220&section=header&text=DSA%20IN%20C&fontSize=68&fontAlignY=38&desc=Raw%20Pointers%20%E2%80%A2%20Zero%20Abstractions%20%E2%80%A2%20Peak%20Performance&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
@@ -76,7 +76,7 @@ DSA-in-C/
 
 ### ⚡ Quick Start
 
-```bash
+
 # 1. Clone
 git clone [https://github.com/AkshatRaj00/DSA-in-C.git](https://github.com/AkshatRaj00/DSA-in-C.git) && cd DSA-in-C
 
